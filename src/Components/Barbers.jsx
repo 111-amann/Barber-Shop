@@ -38,36 +38,43 @@ function Barbers() {
         </p>
       </div>
 
-        <div className="flex justify-between h-[62%] w-full flex-wrap">
-      {data.map((item,i)=>(
-        <div className="group w-sm rounded-2xl bg-zinc-800 flex flex-col items-center border border-zinc-900 hover:border-yellow-400 hover:scale-[1.05] transition-ease duration-400">
-          <div className="icon w-full h-50 bg-zinc-700 rounded-md overflow-hidden mt-2">
-            <img
-              src={item.img}
-              className="w-full h-full boject-cover group-hover:scale-[1.1] transition-ease duration-400 overflow-hidden"
-              alt=""
-            />
-          </div>
-          <div className="line w-10 h-[2px] group-hover:w-30 bg-yellow-400 m-5 transition-ease duration-400"></div>
-          <h1 className="text-xl font-bold mt-1 group-hover:text-yellow-400">
-            {item.name}
-          </h1>
-          <p className="text-yellow-400 text-sm p-2">{item.title}</p>
-          <p className="text-zinc-500 text-sm px-5">
-            {item.para}
-          </p>
-          <div className="social flex gap-3 mt-4">
-            <div className="facebook bg-yellow-400/8 w-9 h-9 rounded-full  flex justify-center items-center">
-              <i class="ri-facebook-box-fill text-yellow-400"></i>
+      <div className="flex justify-between h-[62%] w-full flex-wrap">
+        {data.map((item, i) => (
+          <div className="group w-sm rounded-2xl bg-zinc-800 flex flex-col items-center border border-zinc-900 hover:border-yellow-400 hover:scale-[1.05] transition-ease duration-400">
+            <div className="icon w-full h-50 bg-zinc-700 rounded-md overflow-hidden mt-2">
+              <img
+                src={item.img}
+                className="w-full h-full boject-cover group-hover:scale-[1.1] transition-ease duration-400 overflow-hidden"
+                alt=""
+              />
             </div>
-            <div className="insta bg-yellow-400/8  w-9 h-9 rounded-full  flex justify-center items-center">
-              <i class="ri-instagram-line text-yellow-400"></i>
+            <div className="line w-10 h-[2px] group-hover:w-30 bg-yellow-400 m-5 transition-ease duration-400"></div>
+            <h1 className="text-xl font-bold mt-1 group-hover:text-yellow-400">
+              {item.name}
+            </h1>
+            <p className="text-yellow-400 text-sm p-2">{item.title}</p>
+            <p className="text-zinc-500 text-sm px-5">{item.para}</p>
+            <div className="social flex gap-3 mt-4">
+              <div className="facebook bg-yellow-400/8 hover:bg-yellow-400 hover:scale-[1.1] transition-ease duration-600 w-9 h-9 rounded-full  flex justify-center items-center cursor-pointer">
+                <a
+                  target="_blank"
+                  href="https://www.instagram.com/pmcbarbershop/"
+                >
+                  <i class="ri-facebook-box-fill text-yellow-400 hover:text-white"></i>
+                </a>
+              </div>
+              <div className="insta bg-yellow-400/8 hover:bg-yellow-400 hover:scale-[1.1] transition-ease duration-600  w-9 h-9 rounded-full  flex justify-center items-center cursor-pointer">
+                <a
+                  target="_blank"
+                  href="https://www.instagram.com/pmcbarbershop/"
+                >
+                  <i class="ri-instagram-line text-yellow-400 hover:text-white"></i>
+                </a>
+              </div>
             </div>
           </div>
-        </div>
-       
-       ))} 
-       </div>
+        ))}
+      </div>
     </div>
   );
 }

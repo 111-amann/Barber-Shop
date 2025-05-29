@@ -2,7 +2,7 @@ import React from "react";
 import Button from "./Template/Button";
 function Home() {
   return (
-    <div className="w-full h-screen flex px-30 text-white mt-30">
+    <div id="home" className="w-full h-screen flex px-30 text-white mt-30">
       <div className="left w-1/2">
         <p className="text-yellow-500 font-semibold text-lg">
           Premium Barber Services in Denton
