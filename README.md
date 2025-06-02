@@ -1,12 +1,62 @@
-# React + Vite
+# Fama Barber Shop
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Welcome to **Fama Barber Shop** — a clean, simple, and responsive website for a barber shop.
 
-Currently, two official plugins are available:
+## About the Project
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+This is a personal project where I created a barber shop website to showcase services, pricing, and contact information. The site is designed to be user-friendly and visually appealing, helping customers easily find the information they need.
 
-## Expanding the ESLint configuration
+## Features
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+- Responsive design for all screen sizes  
+- Service list with pricing  
+- Contact section with location and booking info  
+- Clean and modern UI using Tailwind CSS  
+- Beautiful icons with Remix Icon  
+
+## Technologies Used
+
+- React  
+- Tailwind CSS  
+- Remix Icon  
+- Vite  
+
+## Live Demo
+
+Check out the live version here:  
+[https://111-amann.github.io/Barber-Shop/](https://111-amann.github.io/Barber-Shop/)
+
+## Installation
+
+To run this project locally, follow these steps:
+
+### Install dependencies
+
+```bash
+npm install
+```
+
+### Start the development server
+
+```bash
+npm run dev
+```
+
+Open your browser and go to the URL shown in the terminal (usually `http://localhost:5173`)
+
+## Contribution
+
+This is my personal project. Feel free to fork or suggest improvements.
+
+## Contact
+
+If you want to reach out, feel free to contact me via GitHub or email.
+
+---
+
+Thank you for checking out **Fama Barber Shop**!
+
+---
+
+**Author:** Aman Sayyad  
+**GitHub:** [111-amann](https://github.com/111-amann)
