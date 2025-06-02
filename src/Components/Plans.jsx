@@ -36,9 +36,9 @@ function Plans() {
         "Loyalty Program",
       ],
     },
-  ];
+  ]; 
   return (
-    <div className="w-full h-[120vh] bg-[#1a1a1a] px-30 text-white mt-30 relative overflow-hidden">
+    <div className="w-full xl:h-[120vh] h-[200vh] bg-[#1a1a1a] xl:px-30 lg:px-20 md:px-10 px-5 text-white mt-30 relative overflow-hidden">
       <div className="circle1 w-72 h-72 rounded-full bg-yellow-400/5 absolute right-[-7%] top-[-9%]"></div>
       <div className="circle2 w-70 h-70 rounded-full bg-yellow-400/5 absolute left-[-7%] bottom-[-9%]"></div>
 
@@ -52,7 +52,7 @@ function Plans() {
         </p>
       </div>
 
-      <div className="flex justify-between h-[80vh] w-full flex-wrap">
+      <div className="flex justify-between h-[80vh] w-full flex-wrap xl:gap-0 gap-4 xl:my-0 my-2">
         {data.map((item, i) => (
           <div
             key={i}

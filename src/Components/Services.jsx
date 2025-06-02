@@ -29,7 +29,7 @@ function Services() {
   ];
 
   return (
-    <div id="services" className="w-full h-screen bg-[#1a1a1a] px-30 text-white mt-30 relative overflow-hidden">
+    <div id="services" className="w-full xl:h-screen h-fit bg-[#1a1a1a] xl:px-30 lg:px-20 md:px-10 px-5 text-white mt-30 relative overflow-hidden">
       <div className="circle1 w-72 h-72 rounded-full bg-yellow-400/5 absolute right-[-7%] top-[-9%]"></div>
       <div className="circle1 w-90 h-90 rounded-full bg-yellow-400/8 absolute right-[-14%] top-[-18%]"></div>
       <div className="circle2 w-70 h-70 rounded-full bg-yellow-400/5 absolute left-[-7%] bottom-[-7%]"></div>
@@ -43,7 +43,7 @@ function Services() {
         </p>
       </div>
 
-      <div className="aboutinfo flex justify-between h-[60%] w-full flex-wrap">
+      <div className="aboutinfo flex justify-between h-[60%] w-full flex-wrap xl:gap-0 gap-4 xl:my-0 my-3">
         {data.map((item, i)=> (
           <div key={i} className="haircuts group w-sm p-5 rounded-2xl bg-zinc-800 hover:bg-zinc-700 transintion-ease duration-500 border border-zinc-600 hover:border-yellow-400">
           <div className="title h-18 w-full">

@@ -3,7 +3,7 @@ import Button from "./Template/Button";
 
 function Contact() {
   return (
-    <div id="contact" className="w-full h-screen bg-[#1a1a1a] px-30 text-white mt-30 relative overflow-hidden">
+    <div id="contact" className="w-full xl:h-screen h-fit bg-[#1a1a1a] xl:px-30 lg:px-20 md:px-10 px-5 text-white mt-30 relative overflow-hidden">
       <div className="circle1 w-72 h-72 rounded-full bg-yellow-400/5 absolute right-[-7%] top-[-9%]"></div>
       <div className="circle1 w-90 h-90 rounded-full bg-yellow-400/8 absolute right-[-14%] top-[-18%]"></div>
       <div className="circle2 w-70 h-70 rounded-full bg-yellow-400/5 absolute left-[-7%] bottom-[-7%]"></div>
@@ -19,7 +19,7 @@ function Contact() {
         </p>
       </div>
 
-      <div className="flex justify-between h-[60%] w-full flex-wrap">
+      <div className="flex xl:justify-between justify-center h-[60%] w-full flex-wrap xl:gap-0 gap-4 xl:my-0 my-4">
         <div className="address hover:border-2 hover:scale-[1.03] transintion-ease duration-500  hover:border-yellow-500 w-[30%] h-full bg-[#202121] rounded-xl p-5">
           <div className="location flex gap-4 items-center mt-3">
             <div className="logo w-12 h-10 bg-yellow-400 rounded-full flex items-center justify-center">

@@ -24,7 +24,7 @@ function Barbers() {
   ];
 
   return (
-    <div className="w-full h-screen bg-[#1a1a1a] px-30 text-white mt-30 relative overflow-hidden">
+    <div className="w-full xl:h-screen h-fit bg-[#1a1a1a] xl:px-30 lg:px-20 md:px-10 px-5 text-white mt-30 relative overflow-hidden">
       <div className="circle1 w-72 h-72 rounded-full bg-yellow-400/5 absolute right-[-7%] top-[-9%]"></div>
       <div className="circle1 w-90 h-90 rounded-full bg-yellow-400/8 absolute right-[-14%] top-[-18%]"></div>
       <div className="circle2 w-70 h-70 rounded-full bg-yellow-400/5 absolute left-[-7%] bottom-[-7%]"></div>
@@ -38,7 +38,7 @@ function Barbers() {
         </p>
       </div>
 
-      <div className="flex justify-between h-[62%] w-full flex-wrap">
+      <div className="flex justify-between h-[62%] w-full flex-wrap xl:gap-0 gap-4 xl:my-0 my-3">
         {data.map((item, i) => (
           <div className="group w-sm rounded-2xl bg-zinc-800 flex flex-col items-center border border-zinc-900 hover:border-yellow-400 hover:scale-[1.05] transition-ease duration-400">
             <div className="icon w-full h-50 bg-zinc-700 rounded-md overflow-hidden mt-2">

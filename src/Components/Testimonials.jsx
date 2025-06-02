@@ -19,7 +19,7 @@ function Testimonials() {
         }
     ]
   return (
-    <div className="w-full h-screen bg-[#1a1a1a] px-30 text-white mt-30 relative overflow-hidden">
+    <div className="w-full xl:h-screen h-fit bg-[#1a1a1a] xl:px-30 lg:px-20 md:px-10 px-5 text-white mt-30 relative overflow-hidden">
       <div className="circle1 w-72 h-72 rounded-full bg-yellow-400/5 absolute right-[-7%] top-[-9%]"></div>
       <div className="circle2 w-70 h-70 rounded-full bg-yellow-400/5 absolute left-[-7%] bottom-[-9%]"></div>
 
@@ -28,7 +28,7 @@ function Testimonials() {
         <h1 className="font-bold text-4xl mb-5">What Our Clients Say</h1>
       </div>
 
-      <div className="flex justify-between h-[50%] w-full flex-wrap">
+      <div className="flex justify-between h-[50%] w-full flex-wrap xl:gap-0 gap-4 xl:my-0 my-2">
         {data.map((item, i) => (
             <div key={i} className="group w-sm p-6 rounded-2xl bg-zinc-800 hover:bg-zinc-700 transintion-ease duration-500 border border-zinc-600 hover:border-yellow-400 relative overflow-hidden">
             <div className="circle2 w-40 h-40 rounded-full bg-yellow-400/6 absolute right-[-20%] bottom-[-14%]"></div>
