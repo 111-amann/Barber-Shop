@@ -36,7 +36,11 @@ function Footer() {
         <div className="links h-[80%] w-full flex md:mt-20 sm:mt-15 mt-10">
           <div className="flex md:flex-row flex-col items-center gap-10 w-full">
             <div className="social h-full md:w-[25%] w-[70%] flex flex-col md:gap-4 sm:gap-3 gap-2 items-start">
-            <img src="" alt="logo" />
+            <img
+              className="w-full h-full object-cover"
+              src="./Famaa.png"
+              alt="logo"
+            />
             <p className="sm:text-sm text-xs text-zinc-600">Classic cuts with modern style</p>
             <div className="social flex sm:gap-3 gap-2 md:mt-4 sm:mt-3 mt-2">
               <div className="facebook bg-yellow-400/8 hover:bg-yellow-400 hover:scale-[1.1] transition-ease duration-600 md:w-9 md:h-9 sm:w-7 sm:h-7 w-5 h-5 rounded-full flex justify-center items-center cursor-pointer">

@@ -49,12 +49,12 @@ function Navbar() {
       <div
         className={`fixed top-0 right-0 h-full w-[70%] bg-[#1e1f1f] text-white z-[200] transform transition-transform duration-300 ease-in-out ${
           menuOpen ? "translate-x-0" : "translate-x-full"
-        }`}
+        }`} 
       >
         <div className="flex justify-between items-center px-4 py-4 border-b border-gray-600">
           <div className="text-lg font-bold w-12">
             <img
-              className="w-full h-full object-cover"
+              className="w-12 object-cover"
               src="./Famaa.png"
               alt="logo"
             />
