@@ -24,33 +24,33 @@ function Testimonials() {
       <div className="circle2 w-70 h-70 rounded-full bg-yellow-400/5 absolute left-[-7%] bottom-[-9%]"></div>
 
       <div className="about h-[30%] w-full mt-[3%] flex flex-col items-center justify-center">
-        <p className="text-yellow-400 font-semibold mb-2">Testimonials</p>
-        <h1 className="font-bold text-4xl mb-5">What Our Clients Say</h1>
+        <p className="text-yellow-400 font-semibold mb-2 text-xs sm:text-base">Testimonials</p>
+        <h1 className="font-bold lg:text-4xl md:text-2xl text-xl mb-5">What Our Clients Say</h1>
       </div>
 
-      <div className="flex justify-between h-[50%] w-full flex-wrap xl:gap-0 gap-4 xl:my-0 my-2">
+      <div className="flex lg:justify-between justify-center h-[50%] w-full flex-wrap xl:gap-0 gap-4 xl:my-0 my-2">
         {data.map((item, i) => (
             <div key={i} className="group w-sm p-6 rounded-2xl bg-zinc-800 hover:bg-zinc-700 transintion-ease duration-500 border border-zinc-600 hover:border-yellow-400 relative overflow-hidden">
             <div className="circle2 w-40 h-40 rounded-full bg-yellow-400/6 absolute right-[-20%] bottom-[-14%]"></div>
-          <p className="text-5xl text-yellow-400/9 mt-4 -ml-1 rotate-[5deg]">
+          <p className="lg:text-5xl md:text-4xl text-3xl text-yellow-400/9 md:mt-4 sm:mt-3 mt-2 -ml-1 rotate-[5deg]">
             "
           </p>
-          <p className="text-white text-lg italic -mt-8">
+          <p className="text-white md:text-lg sm:text-base text-sm italic -mt-8">
             {item.para}
           </p>
-          <p className="text-5xl text-yellow-400/9 -mt-5 rotate-[5deg] text-right">
+          <p className="lg:text-5xl md:text-4xl text-3xl text-yellow-400/9 -mt-5 rotate-[5deg] text-right">
             "
           </p>
-          <div className="rating flex gap-2 items-center border-t border-zinc-500 mt-5 pt-7">
+          <div className="rating flex gap-2 items-center border-t border-zinc-500 md:mt-5 sm:mt-3 mt-2 md:pt-7 sm:pt-5 pt-3">
             <div className="rating flex gap-[2px]">
-              <i class="ri-star-fill text-yellow-600 text-xs"></i>
-              <i class="ri-star-fill text-yellow-600 text-xs"></i>
-              <i class="ri-star-fill text-yellow-600 text-xs"></i>
-              <i class="ri-star-fill text-yellow-600 text-xs"></i>
-              <i class="ri-star-fill text-yellow-600 text-xs"></i>
+              <i class="ri-star-fill text-yellow-600 md:text-xs sm:text-xs/2 text-xs/3"></i>
+              <i class="ri-star-fill text-yellow-600 md:text-xs sm:text-xs/2 text-xs/3"></i>
+              <i class="ri-star-fill text-yellow-600 md:text-xs sm:text-xs/2 text-xs/3"></i>
+              <i class="ri-star-fill text-yellow-600 md:text-xs sm:text-xs/2 text-xs/3"></i>
+              <i class="ri-star-fill text-yellow-600 md:text-xs sm:text-xs/2 text-xs/3"></i>
             </div>
-            <div className="line h-6 w-1 bg-yellow-400 rounded-lg"></div>
-            <h5 className="font-semibold">{item.name}</h5>
+            <div className="line md:h-6 h-5 w-1 bg-yellow-400 rounded-lg"></div>
+            <h5 className="font-semibold md:text-base sm:text-sm text-xs">{item.name}</h5>
           </div>
         </div>
         ))}

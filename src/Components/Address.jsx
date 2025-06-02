@@ -4,14 +4,14 @@ import Button from "./Template/Button";
 function Address() {
   return (
     <div className="w-full xl:h-screen h-fit bg-[#1a1a1a] xl:px-30 lg:px-20 md:px-10 px-5 text-white mt-30 relative overflow-hidden">
-      <div className="circle1 w-72 h-72 rounded-full bg-yellow-400/5 absolute right-[-7%] top-[-9%]"></div>
-      <div className="circle1 w-90 h-90 rounded-full bg-yellow-400/8 absolute right-[-14%] top-[-18%]"></div>
-      <div className="circle2 w-70 h-70 rounded-full bg-yellow-400/5 absolute left-[-7%] bottom-[-7%]"></div>
+      <div className="circle1 sm:w-72 sm:h-72 w-52 h-52 rounded-full bg-yellow-400/5 absolute right-[-7%] top-[-9%]"></div>
+      <div className="circle1 sm:w-90 sm:h-90 w-70 h-70 rounded-full bg-yellow-400/8 absolute right-[-14%] top-[-18%]"></div>
+      <div className="circle2 sm:w-70 sm:h-70 w-50 h-50 rounded-full bg-yellow-400/5 absolute left-[-7%] bottom-[-7%]"></div>
 
       <div className="about h-[30%] w-full mt-[3%] flex flex-col items-center justify-center">
-        <p className="text-yellow-400 font-semibold mb-2">Visit Our Shop</p>
-        <h1 className="font-bold text-4xl mb-5">Our Location</h1>
-        <p className="text-lg w-[60%] text-center text-zinc-600">
+        <p className="text-yellow-400 font-semibold mb-2 text-xs sm:text-base">Visit Our Shop</p>
+        <h1 className="font-bold lg:text-4xl md:text-2xl text-xl mb-5">Our Location</h1>
+        <p className="md:text-lg sm:text-base text-sm sm:w-[60%] w-full text-center text-zinc-600">
           Conveniently located in Denton, TX:
         </p>
       </div>
@@ -28,31 +28,31 @@ function Address() {
           ></iframe>
         </div>
         <div className="address w-xl h-[75%] bg-[#202121] rounded-xl p-5">
-          <h1 className="text-xl font-semibold">Contact Information</h1>
+          <h1 className="md:text-xl sm:text-lg text-base font-semibold">Contact Information</h1>
           <div className="line w-10 h-[2.5px] bg-yellow-400 mt-1"></div>
-          <div className="location flex gap-4 items-center mt-15">
-            <div className="logo w-10 h-10 bg-yellow-400 rounded-full flex items-center justify-center">
+          <div className="location flex gap-4 items-center md:mt-15 sm:mt-10 mt-5">
+            <div className="logo md:w-10 md:h-10 sm:w-8 sm:h-8 w-6 h-6 bg-yellow-400 rounded-full flex items-center justify-center">
               <i class="ri-map-pin-line"></i>
             </div>
             <div className="a">
-              <h5 className="font-semibold">Address</h5>
-              <p className="text-zinc-500 text-sm">
+              <h5 className="font-semibold sm:text-base text-sm">Address</h5>
+              <p className="text-zinc-500 sm:text-sm text-xs">
                 518 Acme St unit 101, Denton, TX 76205, United States
               </p>
             </div>
           </div>
-          <div className="phone flex gap-4 items-center mt-8">
-            <div className="phonelogo w-10 h-10 bg-yellow-400 rounded-full flex items-center justify-center">
+          <div className="phone flex gap-4 items-center md:mt-8 sm:mt-6 mt-4">
+            <div className="phonelogo md:w-10 md:h-10 sm:w-8 sm:h-8 w-6 h-6 bg-yellow-400 rounded-full flex items-center justify-center">
               <i class="ri-phone-line"></i>
             </div>
             <div className="b">
-              <h5 className="font-semibold">Phone</h5>
-              <p className="text-zinc-500 text-sm">+19408081569</p>
+              <h5 className="font-semibold sm:text-base text-sm">Phone</h5>
+              <p className="text-zinc-500 sm:text-sm text-xs">+19408081569</p>
             </div>
           </div>
           <a target="_blank" href="https://maps.app.goo.gl/XWL8Y5cUA9tpTxUu6">
-            <div className="button mt-10">
-              <Button name="Get Directions" px="px-2" py="py-2" border="none" />
+            <div className="button md:mt-10 sm:mt-8 mt-5">
+              <Button name="Get Directions" px="px-2" py="sm:py-2 py-1" border="none" />
             </div>
           </a>
         </div>
