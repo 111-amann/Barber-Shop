@@ -19,7 +19,7 @@ function Navbar() {
   return (
     <div className="w-full h-12 bg-[#1e1f1f] sm:py-8 py-5 xl:px-30 lg:px-20 md:px-10 px-3 flex justify-between text-white items-center fixed top-0 left-0 z-[100]">
       <div className="logo font-bold md:w-12 w-10">
-        <img className="w-full h-full object-cover" src="/Famaa.png" alt="" />
+        <img className="w-full h-full object-cover" src="./Famaa.png" alt="logo" />
       </div>
 
       <div className="navlinks hidden lg:flex gap-4 font-semibold">
@@ -55,8 +55,8 @@ function Navbar() {
           <div className="text-lg font-bold w-12">
             <img
               className="w-full h-full object-cover"
-              src="/Famaa.png"
-              alt=""
+              src="./Famaa.png"
+              alt="logo"
             />
           </div>
           <i
